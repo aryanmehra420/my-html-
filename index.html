@@ -2,41 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile and laptop</title>
+    <title>Contact Me</title>
 </head>
 <body>
-    <header><h1>
-        <a href="#Laptop section">Laptop Section</a><br>
-        <a href="#Mobile section">Mobile Section</a><hr><br><br><br>
-            </h1>
-    </header>
-        <main>
-            <div id="Laptop section">
-                <section><h2><b><i>Laptop</i></b></h2>
-                    <article>The Lenovo LOQ series offers a compelling blend of performance and value, especially for users seeking a capable gaming or content creation machine without breaking the bank. One standout model features a 13th or 12th Gen Intel Core i5 processor, paired with 16GB DDR5 RAM and a 512GB NVMe SSD, ensuring fast boot times, smooth multitasking, and responsive gameplay
-                    </article><br>
-                        <img src="images_and_videos/lenovo-loq-83GS003UIN.jpg"
-                        alt="loq image"
-                        height="150px">
-                        <video src="images_and_videos\videoplayback.mp4"
-                        height="150px"
-                        autoplay
-                        loop
-                        controls>
-                        </video>   
-                </section><hr>
-            </div>
 
-            <div id="Mobile section">
-                <section><h2><b><i>Mobile</i></b></h2>
-                    <article>The Realme P2 Pro 5G stands out in the competitive smartphone market with its balance of speed, design, and advanced features. Equipped with 12GB RAM (expandable virtually up to 24GB) and 256GB internal storage, it ensures smooth multitasking and ample space for apps, games, and media. Powered by the Qualcomm Snapdragon 7s Gen 2 processor, the device delivers efficient performance for gaming, streaming, and everyday use
-                    </article><br>
-                    <img src="images_and_videos\realme-p2-pro-5g.jpg"
-                    alt="realme p2 pro image"
-                    height="150px">
-                </section>
-            </div>
-        </main>
+    <h2>Contact Me</h2>
+    <p>If you'd like to work together or have any questions, feel free to reach out.</p>
+
+    <form action="#" method="post">
+
+        <!-- Full Name -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required><br><br>
+
+        <!-- Phone -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Optional"><br><br>
+
+        <!-- Subject -->
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Reason for contacting" required><br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Send Message</button>
+
+    </form>
+
 </body>
 </html>
